@@ -1,8 +1,9 @@
 spring:
   datasource:
-      url: jdbc:postgresql://192.168.18.27:5432/vehicle_track
+     # url: jdbc:postgresql://192.168.18.27:5432/vehicle_track
+      url: jdbc:postgresql://104.198.206.114:5432/vehicle_track
       username: postgres
-      password: admin123
+      password: vtrack123
   jpa:
     properties:
       hibernate:
