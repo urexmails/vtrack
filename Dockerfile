@@ -1,5 +1,5 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD target/vtrack-0.0.1-SNAPSHOT.jar vtrack.jar
+COPY target/vtrack-0.0.1-SNAPSHOT.jar /app/target/app.jar
 
-ENTRYPOINT ["java","-jar","vtrack.jar"]
+ENTRYPOINT ["java","-jar","/app/target/app.jar"]
