@@ -1,6 +1,6 @@
 package com.vtrack.vtrack.service;
 
-import com.vtrack.vtrack.model.Vehicle;
+import com.vtrack.vtrack.entity.Vehicle;
 import com.vtrack.vtrack.repository.VehicleRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

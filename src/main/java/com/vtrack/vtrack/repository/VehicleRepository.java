@@ -1,6 +1,6 @@
 package com.vtrack.vtrack.repository;
 
-import com.vtrack.vtrack.model.Vehicle;
+import com.vtrack.vtrack.entity.Vehicle;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

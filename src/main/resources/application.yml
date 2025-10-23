@@ -1,9 +1,10 @@
 spring:
   datasource:
      # url: jdbc:postgresql://192.168.18.27:5432/vehicle_track
-      url: jdbc:postgresql://104.198.206.114:5432/vehicle_track
+      #url: jdbc:postgresql://192.168.18.27:5432/vehicle_track
+      url: jdbc:postgresql://localhost:5432/vehicle_track
       username: postgres
-      password: vtrack123
+      password: admin123
   jpa:
     properties:
       hibernate:
@@ -13,4 +14,4 @@ spring:
         dialect: org.hibernate.dialect.PostgreSQLDialect
 
     hibernate:
-      ddl-auto: update
+      ddl-auto: none
